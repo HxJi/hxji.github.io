@@ -1,22 +1,22 @@
 ---
 layout: about
-title: about
+title: HJ
 permalink: /
-subtitle: <a href='https://illinois.edu/'>University of Illinois Urbana-Champagin</a>. Ph.D. Candidate, Department of Computer Science.
+subtitle: <a href='https://illinois.edu/'>University of Illinois Urbana-Champagin</a>
 
 profile:
   align: right
   image: icon.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>2123 Coordinated Science Laboratory </p>
+    <p>213 Coordinated Science Laboratory </p>
     <p>1308 W. Main Street</p>
     <p>Urbana, IL, 61801</p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
