@@ -67,7 +67,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: hxji # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
@@ -463,14 +463,14 @@ jekyll_get_json:
     json: assets/json/resume.json # it can also be an url
 jsonresume:
   - basics
-  - work
   - education
-  - publications
-  - projects
-  - volunteer
   - awards
   - certificates
+  - experience
+  - publications
+  # - projects
+  - volunteer
   - skills
   - languages
   - interests
-  - references
+  # - references
