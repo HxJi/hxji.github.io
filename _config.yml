@@ -465,12 +465,9 @@ jsonresume:
   - basics
   - education
   - awards
-  - certificates
   - experience
+  - certificates
   - publications
-  # - projects
-  # - volunteer
   - skills
   - languages
   - interests
-  # - references
