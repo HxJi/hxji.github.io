@@ -469,7 +469,7 @@ jsonresume:
   - experience
   - publications
   # - projects
-  - volunteer
+  # - volunteer
   - skills
   - languages
   - interests

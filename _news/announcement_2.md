@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work on CXL memory with geniue device accepted to MICRO 2023!
+Our work on CXL memory with **geniue CXL device** accepted to MICRO 2023!
