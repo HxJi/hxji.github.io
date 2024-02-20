@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - hxji
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - hxji/awesome
+  - hxji/Transfer-Learning
+  - hxji/ML-Resource
+  - hxji/cxl_d2h_benchmark
+  - hxji/cxl_h2d_benchmark
+  - andygongyb/SparseTrain
+  - ece-fast-lab/cxl_type3_tests
