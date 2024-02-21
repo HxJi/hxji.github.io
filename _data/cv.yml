@@ -14,18 +14,18 @@
     - category: Hardware and Architecture Focus
       icon: fa-solid fa-microchip
       items:
-        - Computer architecture
-        - Memory system hardware and software
-        - Compute express link (CXL)
-        - Near-memory acceleration
+        - name: Computer architecture
+        - name: Memory system hardware and software
+        - name: Compute express link (CXL)
+        - name: Near-memory acceleration
 
     - category: System and Application Focus
       icon: fa-solid fa-cogs
       items:
-        - System for machine learning
-        - ML accelerator
-        - Hardware-software co-design
-        - Heterogeneous computing
+        - name: System for machine learning
+        - name: ML accelerator
+        - name: Hardware-software co-design
+        - name: Heterogeneous computing
 
 
 - title: Education
@@ -73,13 +73,13 @@
   type: time_table
   contents:
     - title: Visiting Researcher
-      company: Capacity Engineering and Analysis, Meta
-      year: July 2022 - Dec 2022
+      institution: Capacity Engineering and Analysis, Meta
+      year: 2022/07 - 2022/12
 
     - title: Research Intern
-      company: CPU Design, Luminous Computing
-      year: May 2021 - Aug 2021
+      institution: CPU Design, Luminous Computing
+      year: 2021/05 - 2021/08
 
     - title: Research Intern
-      company: Security and Privacy Research,Intel Lab
-      year: May 2020 - Aug 2020
+      institution: Security and Privacy Research,Intel Lab
+      year: 2020/05 - 2020/08
