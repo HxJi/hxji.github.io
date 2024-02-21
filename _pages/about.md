@@ -6,7 +6,7 @@ subtitle: <a href='https://illinois.edu/'>University of Illinois Urbana-Champagi
 
 profile:
   align: right
-  image: ![alt text](0ac6a1e6783c6ddf0b68bdc826a901f-1.jpg)
+  image: headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>213 Coordinated Science Laboratory </p> 
