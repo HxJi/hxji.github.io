@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
 subtitle: <a href='https://illinois.edu/'>University of Illinois Urbana-Champagin</a>
 

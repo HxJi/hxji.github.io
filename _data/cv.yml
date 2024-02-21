@@ -9,12 +9,21 @@
       value: Mandarin (native), English (fluent)
 
 - title: Research Interests
-  type: list
-    - computer architecture, memory system hardware and software
-    - compute express link (CXL), near-memory acceleration
-    - system for machine learning, ML accelerator
-    - hardware-software co-design
-    - heterogeneous computing
+  type: list_groups
+  contents:
+    - title: Hardware and Architecture Focus
+      items:
+        - Computer architecture
+        - Memory system hardware and software
+        - Compute express link (CXL)
+        - Near-memory acceleration
+
+    - title: System and Application Focus
+      items:
+        - System for machine learning
+        - ML accelerator
+        - Hardware-software co-design
+        - Heterogeneous computing
 
 
 - title: Education
@@ -25,7 +34,6 @@
       year: 2018 - 
       description:
         - Advisor: Prof. Nam Sung Kim
-        # embed a link 
         - Affiliation: <a href="https://fast.ece.illinois.edu/">FAST Research Group</a>, CSL, CS
 
     - title: MSc in Computer Science
@@ -44,81 +52,32 @@
   contents:
     - year: 2023
       items:
-        - Best Demo Award, SRC PRISM Center Annual Review
-    - year: 2020
-      items:
-        - Best Paper Nominee, MICRO-53
+        - Best Demo Award, SRC/DARPA PRISM Center Annual Review
+        - UIUC CS PhD Fellowship
+        - Travel Grants: USENIX OSDI/ATC 2023
     - year: 2019
       items:
-        - Best Paper Nominee, MICRO-52
+        - Travel Grants: IEEE ISCA 2019
     - year: 2018
       items:
-        - Outstanding Graduate, Shanghai Jiao Tong University
+        - Ray Ozzie Computer Science Fellowship, UIUC
+        - Zhiyuan Honor Degree of B.Sc. in Computer Science, SJTU
+        - Outstanding Graduates, SJTU
+    - year: 2015-2017
+      items:
+        - Zhiyan Honor Scholarship, SJTU
+        - Excellent Undergraduate Scholarship, SJTU
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - duration: Jun 2022 - Dec 2022
+      position: Visiting Researcher
+      organization: Capacity Engineering and Analysis, Meta
+    - duration: May 2021 - Aug 2021
+      position: Research Intern
+      organization: CPU Design, Luminous Computing
+    - duration: May 2020 - Aug 2020
+      position: Research Intern
+      organization: Security and Privacy Research,Intel Lab
