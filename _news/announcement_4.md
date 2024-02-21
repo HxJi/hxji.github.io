@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited talk at OCP Composable Memory System Group call on "Improve System Performance by Offloading Memory-Intensive Kernel Features to CXL Type-2 Device".
+Invited talk at OCP Composable Memory System Group call on "Improve System Performance by Offloading Memory-Intensive Kernel Features to CXL Type-2 Device". Video can be found at [Composable Memory System (CMS) - OCP Subproject Weekly call](https://www.youtube.com/watch?v=g1b7vcQ7UmM).

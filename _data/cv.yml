@@ -1,32 +1,63 @@
-- title: General Information
+- title: Basics
   type: map
   contents:
     - name: Full Name
       value: Houxiang Ji
-    - name: Date of Birth
-      value: 14th March 1879
+    - name: Email
+      value: hj14[at]illinois[dot]edu
     - name: Languages
-      value: English
+      value: Mandarin (native), English (fluent)
+
+- title: Research Interests
+  type: list
+  contents:
+    - computer architecture
+    - memory system hardware and software
+    - compute express link (CXL)
+    - near-memory acceleration
+    - system for machine learning
+    - datacenter
+    - ML accelerator
+    - hardware-software co-design
+    - heterogeneous computing
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D Candidate in Computer Science
+      institution: University of Illinois Urbana-Champaign
+      year: 2018 - 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Advisor: Prof. Nam Sung Kim
+        # embed a link 
+        - Affiliation: <a href="https://fast.ece.illinois.edu/">FAST Research Group</a>, CSL, CS
+
+    - title: MSc in Computer Science
+      institution: University of Illinois Urbana-Champaign
+      year: 2021
+      thesis: "Demystifying graph neural networks in recommender systems"
+    
+    - title: BSc in Computer Science
+      institution: Shanghai Jiao Tong University
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Minor: Finance and Economics
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - Best Demo Award, SRC PRISM Center Annual Review
+    - year: 2020
+      items:
+        - Best Paper Nominee, MICRO-53
+    - year: 2019
+      items:
+        - Best Paper Nominee, MICRO-52
+    - year: 2018
+      items:
+        - Outstanding Graduate, Shanghai Jiao Tong University
 
 - title: Experience
   type: time_table
