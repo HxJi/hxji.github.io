@@ -10,16 +10,12 @@
 
 - title: Research Interests
   type: list
-  contents:
-    - computer architecture
-    - memory system hardware and software
-    - compute express link (CXL)
-    - near-memory acceleration
-    - system for machine learning
-    - datacenter
-    - ML accelerator
+    - computer architecture, memory system hardware and software
+    - compute express link (CXL), near-memory acceleration
+    - system for machine learning, ML accelerator
     - hardware-software co-design
     - heterogeneous computing
+
 
 - title: Education
   type: time_table
