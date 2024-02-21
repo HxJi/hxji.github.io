@@ -12,6 +12,7 @@
   type: list_groups
   contents:
     - category: Hardware and Architecture Focus
+      icon: fa-solid fa-microchip
       items:
         - Computer architecture
         - Memory system hardware and software
@@ -19,6 +20,7 @@
         - Near-memory acceleration
 
     - category: System and Application Focus
+      icon: fa-solid fa-cogs
       items:
         - System for machine learning
         - ML accelerator
@@ -70,15 +72,14 @@
 - title: Experience
   type: time_table
   contents:
-    - year: Jun 2022 - Dec 2022
-      items:
-        - position: Visiting Researcher
-        - organization: Capacity Engineering and Analysis, Meta
-    - year: May 2021 - Aug 2021
-      items:
-        - position: Research Intern
-        - organization: CPU Design, Luminous Computing
-    - year: May 2020 - Aug 2020
-      items:
-        - position: Research Intern
-        - organization: Security and Privacy Research,Intel Lab
+    - title: Visiting Researcher
+      company: Capacity Engineering and Analysis, Meta
+      year: July 2022 - Dec 2022
+
+    - title: Research Intern
+      company: CPU Design, Luminous Computing
+      year: May 2021 - Aug 2021
+
+    - title: Research Intern
+      company: Security and Privacy Research,Intel Lab
+      year: May 2020 - Aug 2020
