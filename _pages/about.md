@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: headshot-1.jpg
+  image: headshot-2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>213 Coordinated Science Laboratory </p> 
