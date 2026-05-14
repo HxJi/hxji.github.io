@@ -11,7 +11,15 @@
         <div class="col-md-9 col-xl-10 p-3 pl-md-0 publication-text">
             <h5 class="mt-0 mb-1 font-weight-normal publication-title">{{ item.title }}</h5>
             <p class="mt-0 mb-0 small publication-authors">{% include widgets/author_list.html authors=item.authors %}</p>
-            <p class="mt-0 mb-0 small publication-venue">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
+            <p class="mt-0 mb-0 small publication-venue">
+                {{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
+                {% if item.artifact_badges %}
+                    {% for badge in item.artifact_badges %}
+                    <span class="badge badge-pill badge-info badge-publication ml-1">{{ badge }}</span>
+                    {% endfor %}
+                {% endif %}
+                <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span>
+            </p>
             <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
             
             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
@@ -35,7 +43,15 @@
             <div>
                 <h5 class="mt-0 mb-1 font-weight-normal publication-title">{{ item.title }}</h5>
                 <p class="mt-0 mb-0 small publication-authors">{% include widgets/author_list.html authors=item.authors %}</p>
-                <p class="mt-0 mb-0 small publication-venue">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
+                <p class="mt-0 mb-0 small publication-venue">
+                    {{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
+                    {% if item.artifact_badges %}
+                        {% for badge in item.artifact_badges %}
+                        <span class="badge badge-pill badge-info badge-publication ml-1">{{ badge }}</span>
+                        {% endfor %}
+                    {% endif %}
+                    <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span>
+                </p>
                 <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
                 
                 <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
