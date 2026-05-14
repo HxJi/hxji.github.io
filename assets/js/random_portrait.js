@@ -2,22 +2,39 @@ document.addEventListener('DOMContentLoaded', function () {
   var images = document.querySelectorAll('.random-portrait');
   if (!images.length) return;
 
-  var raw = images[0].getAttribute('data-portraits');
-  if (!raw) return;
+  // Keep the list here so newly added portraits work even if profile.yml is stale.
+  // The fourth image is treated like a small surprise / easter egg.
+  var portraits = [
+    '/assets/images/photos/portrait-1.jpg',
+    '/assets/images/photos/portrait-2.jpg',
+    '/assets/images/photos/portrait-3.jpg',
+    '/assets/images/photos/portrait-4.jpg'
+  ];
 
-  var portraits;
+  var lastIndex = -1;
   try {
-    portraits = JSON.parse(raw);
+    lastIndex = parseInt(localStorage.getItem('lastPortraitIndex'), 10);
+    if (Number.isNaN(lastIndex)) lastIndex = -1;
   } catch (e) {
-    return;
+    lastIndex = -1;
   }
 
-  if (!Array.isArray(portraits) || portraits.length === 0) return;
+  var selectedIndex = Math.floor(Math.random() * portraits.length);
+  if (portraits.length > 1 && selectedIndex === lastIndex) {
+    selectedIndex = (selectedIndex + 1 + Math.floor(Math.random() * (portraits.length - 1))) % portraits.length;
+  }
 
-  var selected = portraits[Math.floor(Math.random() * portraits.length)];
+  try {
+    localStorage.setItem('lastPortraitIndex', String(selectedIndex));
+  } catch (e) {
+    // Ignore storage failures; random selection still works.
+  }
+
+  var selected = portraits[selectedIndex];
+  var cacheBusted = selected + '?portrait=' + selectedIndex + '-' + Date.now();
 
   images.forEach(function (img) {
-    img.src = selected;
+    img.src = cacheBusted;
   });
 
   var mobileLink = document.getElementById('random-portrait-mobile-link');
