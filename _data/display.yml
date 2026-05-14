@@ -4,6 +4,24 @@ homepage:
   show_selected_publications: true
   num_news: 10
 
+artifact_badge_options:
+  artifact_available:
+    name: Artifacts Available
+    image: /assets/images/artifacts/artifact-available.png
+    url: https://www.acm.org/publications/policies/artifact-review-badging
+  artifact_evaluated_functional:
+    name: Artifacts Evaluated - Functional
+    image: /assets/images/artifacts/artifact-evaluated-functional.png
+    url: https://www.acm.org/publications/policies/artifact-review-badging
+  artifact_evaluated_reusable:
+    name: Artifacts Evaluated - Reusable
+    image: /assets/images/artifacts/artifact-evaluated-reusable.png
+    url: https://www.acm.org/publications/policies/artifact-review-badging
+  results_reproduced:
+    name: Results Reproduced
+    image: /assets/images/artifacts/results-reproduced.png
+    url: https://www.acm.org/publications/policies/artifact-review-badging
+
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
 footer_text: >-
