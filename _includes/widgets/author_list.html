@@ -37,7 +37,7 @@
         {%- assign display_name = name | append: mark -%}
     {%- endif -%}
     
-    {%- if info['url'] -%}
+    {%- if info['url'] and info['disable_publication_link'] != true -%}
         <a class="publication-author" target="_blank" href="{{ info['url'] }}">{{ display_name }}</a>{%- if forloop.index < authors.size -%}, {% endif -%}
     {%- else -%}
         <span class="publication-author">
