@@ -1,15 +1,20 @@
 <footer class="footer border-top py-2 mt-5 bg-white small">
     <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
         <div class="row my-3">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <div class="text-muted">
                     <i>Last updated: {{ "now" | date: "%b %Y" }}</i>
                 </div>
             </div>
-            <div class="col-6">
-                <div class="text-right text-muted">
+            <div class="col-12 col-md-6">
+                <div class="text-md-right text-muted">
                     {{ site.data.display.footer_text }}
                 </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-12 text-muted">
+                Website template adapted from <a href="https://github.com/luost26/academic-homepage" target="_blank" rel="noopener noreferrer">academic-homepage</a>.
             </div>
         </div>
     </div>
