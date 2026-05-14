@@ -8,8 +8,10 @@
                         <!-- When the screen is wider than md, float the portrait on the right -->
                         <div class="figure float-right ml-4 mb-4 d-none d-md-block">
                             <img 
+                                id="random-portrait-desktop"
                                 src="{{ site.data.profile.portrait_url | relative_url }}" 
-                                class="figure-img img-fluid img-thumbnail" 
+                                data-portraits='{{ site.data.profile.portrait_random_urls | jsonify }}'
+                                class="figure-img img-fluid img-thumbnail random-portrait" 
                                 style="height: 200px;"
                                 data-toggle="tooltip" 
                                 data-placement="top" 
@@ -23,8 +25,8 @@
                             </div>
                             {% if site.data.profile.portrait_url %}
                             <div class="ml-auto d-md-none">
-                                <a target="_blank" href="{{ site.data.profile.portrait_url | relative_url }}">
-                                    <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle" style="height: 48px;" alt="Portrait">
+                                <a id="random-portrait-mobile-link" target="_blank" href="{{ site.data.profile.portrait_url | relative_url }}">
+                                    <img id="random-portrait-mobile" src="{{ site.data.profile.portrait_url | relative_url }}" data-portraits='{{ site.data.profile.portrait_random_urls | jsonify }}' class="rounded-circle random-portrait" style="height: 48px;" alt="Portrait">
                                 </a>
                             </div>
                             {% endif %}
