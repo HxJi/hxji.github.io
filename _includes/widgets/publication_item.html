@@ -1,4 +1,17 @@
 {% assign item = include.item %}
+{% capture artifact_badges_html %}
+{% if item.artifact_badges %}
+    {% for badge in item.artifact_badges %}
+        {% if badge.image %}
+            {% if badge.url %}<a href="{{ badge.url }}" target="_blank" rel="noopener noreferrer" class="artifact-badge-link">{% endif %}
+            <img class="artifact-badge-img" src="{{ badge.image | relative_url }}" alt="{{ badge.name | default: 'Artifact badge' }}" title="{{ badge.name | default: 'Artifact badge' }}">
+            {% if badge.url %}</a>{% endif %}
+        {% else %}
+            <span class="badge badge-pill badge-info badge-publication ml-1">{{ badge.name | default: badge }}</span>
+        {% endif %}
+    {% endfor %}
+{% endif %}
+{% endcapture %}
 <div class="d-none d-md-block">
     <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray publication-item-row">
         <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
@@ -12,12 +25,7 @@
             <h5 class="mt-0 mb-1 font-weight-normal publication-title">{{ item.title }}</h5>
             <p class="mt-0 mb-0 small publication-authors">{% include widgets/author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small publication-venue">
-                {{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
-                {% if item.artifact_badges %}
-                    {% for badge in item.artifact_badges %}
-                    <span class="badge badge-pill badge-info badge-publication ml-1">{{ badge }}</span>
-                    {% endfor %}
-                {% endif %}
+                {{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} {{ artifact_badges_html }}
                 <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span>
             </p>
             <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
@@ -44,12 +52,7 @@
                 <h5 class="mt-0 mb-1 font-weight-normal publication-title">{{ item.title }}</h5>
                 <p class="mt-0 mb-0 small publication-authors">{% include widgets/author_list.html authors=item.authors %}</p>
                 <p class="mt-0 mb-0 small publication-venue">
-                    {{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
-                    {% if item.artifact_badges %}
-                        {% for badge in item.artifact_badges %}
-                        <span class="badge badge-pill badge-info badge-publication ml-1">{{ badge }}</span>
-                        {% endfor %}
-                    {% endif %}
+                    {{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} {{ artifact_badges_html }}
                     <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span>
                 </p>
                 <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
