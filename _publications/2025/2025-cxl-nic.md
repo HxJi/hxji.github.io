@@ -12,6 +12,10 @@ authors:
   - Ren Wang
   - Saksham Agarwal
   - Nam Sung Kim
+artifact_badges:
+  - name: Artifacts Available
+    image: /assets/images/artifacts/artifact-available.png
+    url: https://www.acm.org/publications/policies/artifact-review-badging
 links:
   Paper: https://dl.acm.org/doi/abs/10.1145/3725843.3756102
 ---
