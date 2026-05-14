@@ -15,4 +15,8 @@ authors:
   - Nam Sung Kim
 links:
   Paper: https://doi.ieeecomputersociety.org/10.1109/LCA.2025.3552190
+artifact_available: false
+artifact_evaluated_functional: false
+artifact_evaluated_reusable: false
+results_reproduced: false
 ---

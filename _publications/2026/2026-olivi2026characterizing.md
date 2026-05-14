@@ -11,4 +11,8 @@ authors:
   - Houxiang Ji
   - Jungmin Choi
   - Ada Gavrilovska
+artifact_available: false
+artifact_evaluated_functional: false
+artifact_evaluated_reusable: false
+results_reproduced: false
 ---
