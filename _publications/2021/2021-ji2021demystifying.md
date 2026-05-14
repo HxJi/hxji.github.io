@@ -1,6 +1,6 @@
 ---
 title: "Demystifying graph neural networks in recommender systems"
-date: 2021-01-01 00:01:00 +0000
+date: 2021-06-01 12:00:00 +0000
 selected: false
 pub: "University of Illinois at Urbana-Champaign"
 pub_date: "2021"

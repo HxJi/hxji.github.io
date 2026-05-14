@@ -1,6 +1,6 @@
 ---
 title: "TAROT: A CXL SmartNIC-Based Defense Against Multi-bit Errors by Row-Hammer Attacks"
-date: 2024-01-01 00:01:00 +0000
+date: 2024-06-01 12:00:00 +0000
 selected: false
 pub: "Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3"
 pub_date: "2024"

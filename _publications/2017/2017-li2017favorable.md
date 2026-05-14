@@ -1,6 +1,6 @@
 ---
 title: "Favorable block first: A comprehensive cache scheme to accelerate partial stripe recovery of triple disk failure tolerant arrays"
-date: 2017-01-01 00:01:00 +0000
+date: 2017-06-01 12:00:00 +0000
 selected: false
 pub: "2017 46th International Conference on Parallel Processing (ICPP)"
 pub_date: "2017"

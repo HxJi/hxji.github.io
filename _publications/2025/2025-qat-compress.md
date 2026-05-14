@@ -1,6 +1,6 @@
 ---
 title: "Hardware-accelerated Kernel-Space Memory Compression Using Intel QAT"
-date: 2025-01-01 00:01:00 +0000
+date: 2025-06-01 12:00:00 +0000
 selected: false
 pub: "IEEE Computer Architecture Letters"
 pub_date: "2025"

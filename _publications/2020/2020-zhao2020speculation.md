@@ -1,6 +1,6 @@
 ---
 title: "Speculation Invariance (InvarSpec): Faster Safe Execution Through Program Analysis"
-date: 2020-01-01 00:01:00 +0000
+date: 2020-06-01 12:00:00 +0000
 selected: false
 pub: "Proceedings of the 53rd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)"
 pub_date: "2020"

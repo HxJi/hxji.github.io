@@ -161,7 +161,7 @@ def main() -> None:
         out_path = year_dir / filename
 
         # Keep date monotonic within year, but approximate.
-        date = f"{year}-01-01 00:01:00 +0000"
+        date = f"{year}-06-01 12:00:00 +0000"
 
         lines = [
             "---",

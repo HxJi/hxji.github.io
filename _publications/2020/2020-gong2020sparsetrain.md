@@ -1,6 +1,6 @@
 ---
 title: "SparseTrain: Leveraging dynamic sparsity in software for training DNNs on general-purpose SIMD processors"
-date: 2020-01-01 00:01:00 +0000
+date: 2020-06-01 12:00:00 +0000
 selected: false
 pub: "Proceedings of the ACM International Conference on Parallel Architectures and Compilation Techniques"
 pub_date: "2020"
