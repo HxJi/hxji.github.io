@@ -38,7 +38,11 @@ short_bio: >-
     and <a href="https://www.intel.com/content/www/us/en/research/overview.html" target="_blank">Intel Labs</a>.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/portrait-1.jpg
+portrait_random_urls:
+- /assets/images/photos/portrait-1.jpg
+- /assets/images/photos/portrait-2.jpg
+- /assets/images/photos/portrait-3.jpg
 # portrait_caption: >-
 #   
 
