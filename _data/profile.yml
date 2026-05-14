@@ -55,6 +55,7 @@ education:
 
 experience:
 - name: SK hynix America
+  logo: /assets/images/badges/hynix.png
   position: Memory System Research Group
   date:
 - name: Meta
