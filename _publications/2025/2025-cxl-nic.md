@@ -2,7 +2,7 @@
 title: "Re-architecting End-host Networking with CXL: Coherence, Memory, and Offloading"
 date: 2025-06-01 12:00:00 +0000
 selected: true
-pub: "2025 58th IEEE/ACM International Symposium on Microarchitecture (MICRO)"
+pub: "58th IEEE/ACM International Symposium on Microarchitecture (MICRO)"
 pub_date: "2025"
 authors:
   - Houxiang Ji
