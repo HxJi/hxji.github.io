@@ -1,23 +1,26 @@
 {% assign item = include.item %}
 {% capture artifact_badges_html %}
-{% unless item.show_artifact_badges == false %}
-    {% if item.artifact_badges %}
-        {% assign badges = item.artifact_badges %}
-    {% else %}
-        {% assign badges = site.data.display.default_artifact_badges %}
-    {% endif %}
-    {% if badges %}
-        {% for badge in badges %}
-            {% if badge.image %}
-                {% if badge.url %}<a href="{{ badge.url }}" target="_blank" rel="noopener noreferrer" class="artifact-badge-link">{% endif %}
-                <img class="artifact-badge-img" src="{{ badge.image | relative_url }}" alt="{{ badge.name | default: 'Artifact badge' }}" title="{{ badge.name | default: 'Artifact badge' }}">
-                {% if badge.url %}</a>{% endif %}
-            {% else %}
-                <span class="badge badge-pill badge-info badge-publication ml-1">{{ badge.name | default: badge }}</span>
-            {% endif %}
-        {% endfor %}
-    {% endif %}
-{% endunless %}
+{% assign badge_options = site.data.display.artifact_badge_options %}
+{% assign show_available = item.artifact_available | default: true %}
+{% assign show_functional = item.artifact_evaluated_functional | default: true %}
+{% assign show_reusable = item.artifact_evaluated_reusable | default: true %}
+{% assign show_reproduced = item.results_reproduced | default: true %}
+{% if show_available and badge_options.artifact_available %}
+    {% assign badge = badge_options.artifact_available %}
+    <a href="{{ badge.url }}" target="_blank" rel="noopener noreferrer" class="artifact-badge-link"><img class="artifact-badge-img" src="{{ badge.image | relative_url }}" alt="{{ badge.name }}" title="{{ badge.name }}"></a>
+{% endif %}
+{% if show_functional and badge_options.artifact_evaluated_functional %}
+    {% assign badge = badge_options.artifact_evaluated_functional %}
+    <a href="{{ badge.url }}" target="_blank" rel="noopener noreferrer" class="artifact-badge-link"><img class="artifact-badge-img" src="{{ badge.image | relative_url }}" alt="{{ badge.name }}" title="{{ badge.name }}"></a>
+{% endif %}
+{% if show_reusable and badge_options.artifact_evaluated_reusable %}
+    {% assign badge = badge_options.artifact_evaluated_reusable %}
+    <a href="{{ badge.url }}" target="_blank" rel="noopener noreferrer" class="artifact-badge-link"><img class="artifact-badge-img" src="{{ badge.image | relative_url }}" alt="{{ badge.name }}" title="{{ badge.name }}"></a>
+{% endif %}
+{% if show_reproduced and badge_options.results_reproduced %}
+    {% assign badge = badge_options.results_reproduced %}
+    <a href="{{ badge.url }}" target="_blank" rel="noopener noreferrer" class="artifact-badge-link"><img class="artifact-badge-img" src="{{ badge.image | relative_url }}" alt="{{ badge.name }}" title="{{ badge.name }}"></a>
+{% endif %}
 {% endcapture %}
 <div class="d-none d-md-block">
     <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray publication-item-row">
