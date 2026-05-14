@@ -1,61 +1,64 @@
-primary_name: "Your Name"
+primary_name: "Houxiang Ji"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Houxiang Ji"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- name: Computer Architecture and Systems Researcher
+- name: Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign
 
-
-email: "your@email.com"
-# cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
-# wechat_qrcode: /assets/images/etc/wechat.jpg
-# wechat_prompt: >-
-#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
+email: "first_name dotlast_name at sk dot com"
+cv_link: /assets/pdf/resume.pdf
+gscholar: tJwsCPYAAAAJ
+github: hxji
+linkedin: houxiang-j-38156816a
+orcid: 0009-0008-8402-0127
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I received my Ph.D. in computer science from the
+    <a href="https://siebelschool.illinois.edu/" target="_blank">Siebel School of Computing and Data Science</a>
+    at the <a href="https://illinois.edu/" target="_blank">University of Illinois Urbana-Champaign</a>,
+    advised by <a href="https://fast.ece.illinois.edu/member.html" target="_blank">Prof. Nam Sung Kim</a>.
+    I am affiliated with the <a href="https://fast.ece.illinois.edu/" target="_blank">FAST</a> research group
+    and Coordinated Science Lab.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    My research interests include computer architecture, memory systems, Compute Express Link (CXL),
+    and systems for machine learning. I am currently working on CXL Type-2 devices to boost
+    hyperscaler application performance.
+  </p>
+  <p>
+    Before joining UIUC, I received my bachelor's degree in Computer Science and Engineering and Finance from
+    <a href="https://en.sjtu.edu.cn/" target="_blank">Shanghai Jiao Tong University (SJTU)</a>.
+    I have worked as a visiting researcher at <a href="https://about.meta.com/" target="_blank">Meta</a>
+    and as a research intern at <a href="https://www.luminous.com/" target="_blank">Luminous Computing</a>
+    and <a href="https://www.intel.com/content/www/us/en/research/overview.html" target="_blank">Intel Labs</a>.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+# portrait_caption: >-
+#   
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+- name: University of Illinois Urbana-Champaign
+  position: >-
+    Siebel School of Computing and Data Science <br/>
+    Ph.D. in Computer Science
+  date: 
+- name: Shanghai Jiao Tong University
+  position: B.S. in Computer Science and Engineering and Finance
+  date: 
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: Meta
+  position: Visiting Researcher
+  date: 
+- name: Luminous Computing
+  position: Research Intern
+  date: 
+- name: Intel Labs
+  position: Research Intern
+  date: 
 
-awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+awards: []
