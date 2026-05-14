@@ -11,4 +11,8 @@ authors:
   - Nam Sung Kim
 links:
   Paper: https://ieeexplore.ieee.org/document/11045247
+artifact_available: false
+artifact_evaluated_functional: false
+artifact_evaluated_reusable: false
+results_reproduced: false
 ---
