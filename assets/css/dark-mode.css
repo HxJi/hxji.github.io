@@ -56,8 +56,7 @@ html[data-theme="dark"] h5,
 html[data-theme="dark"] h6,
 html[data-theme="dark"] p,
 html[data-theme="dark"] li,
-html[data-theme="dark"] .media-body,
-html[data-theme="dark"] .publication-title {
+html[data-theme="dark"] .media-body {
   color: #e5e7eb;
 }
 
@@ -91,11 +90,33 @@ html[data-theme="dark"] hr {
   border-color: rgba(148, 163, 184, 0.25);
 }
 
-/* Mobile publication cards use an inline light background in the template.
-   Override it in dark mode so the inherited light text remains readable. */
-html[data-theme="dark"] .d-md-none > .w-100 {
+html[data-theme="dark"] .publication-item-row,
+html[data-theme="dark"] .publication-mobile-row,
+html[data-theme="dark"] .publication-mobile-card,
+html[data-theme="dark"] .publication-text {
   background-color: #111827 !important;
   color: #e5e7eb !important;
+}
+
+html[data-theme="dark"] .publication-title {
+  color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .publication-authors,
+html[data-theme="dark"] .publication-authors strong,
+html[data-theme="dark"] .publication-venue,
+html[data-theme="dark"] .publication-venue i {
+  color: #dbeafe !important;
+}
+
+html[data-theme="dark"] .publication-text .text-muted,
+html[data-theme="dark"] .publication-text .abstract-links {
+  color: #b6c2d6 !important;
+}
+
+html[data-theme="dark"] .publication-text a,
+html[data-theme="dark"] .abstract-links a {
+  color: #38bdf8 !important;
 }
 
 html[data-theme="dark"] .d-md-none h5,
@@ -103,14 +124,5 @@ html[data-theme="dark"] .d-md-none p,
 html[data-theme="dark"] .d-md-none .small,
 html[data-theme="dark"] .d-md-none strong,
 html[data-theme="dark"] .d-md-none i {
-  color: #e5e7eb !important;
-}
-
-html[data-theme="dark"] .d-md-none .text-muted,
-html[data-theme="dark"] .d-md-none .abstract-links {
-  color: #a8b3c7 !important;
-}
-
-html[data-theme="dark"] .d-md-none a {
-  color: #7dd3fc !important;
+  color: inherit;
 }
