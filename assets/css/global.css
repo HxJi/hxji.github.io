@@ -88,6 +88,17 @@ div.lazy {
     font-size: 100%;
 }
 
+.artifact-badge-img {
+    height: 24px;
+    width: auto;
+    margin-left: 0.35rem;
+    vertical-align: -0.35rem;
+}
+
+.artifact-badge-link {
+    text-decoration: none;
+}
+
 .email-text {
     font-family: Source Code Pro, monospace;
 }
