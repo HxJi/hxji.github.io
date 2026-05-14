@@ -1,0 +1,12 @@
+---
+title: "Demystifying graph neural networks in recommender systems"
+date: 2021-01-01 00:01:00 +0000
+selected: false
+pub: "University of Illinois at Urbana-Champaign"
+pub_date: "2021"
+authors:
+  - Houxiang Ji
+links:
+  Paper: https://www.ideals.illinois.edu/items/123280
+  PDF: /assets/pdf/thesis21.pdf
+---
