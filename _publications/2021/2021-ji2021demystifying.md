@@ -9,4 +9,8 @@ authors:
 links:
   Paper: https://www.ideals.illinois.edu/items/123280
   PDF: /assets/pdf/thesis21.pdf
+artifact_available: false
+artifact_evaluated_functional: false
+artifact_evaluated_reusable: false
+results_reproduced: false
 ---

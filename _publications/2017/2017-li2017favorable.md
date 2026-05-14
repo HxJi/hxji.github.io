@@ -2,7 +2,7 @@
 title: "Favorable block first: A comprehensive cache scheme to accelerate partial stripe recovery of triple disk failure tolerant arrays"
 date: 2017-06-01 12:00:00 +0000
 selected: false
-pub: "2017 46th International Conference on Parallel Processing (ICPP)"
+pub: "46th International Conference on Parallel Processing (ICPP)"
 pub_date: "2017"
 authors:
   - Luyu Li
@@ -13,4 +13,8 @@ authors:
 links:
   Paper: https://ieeexplore.ieee.org/abstract/document/8025296
   PDF: /assets/pdf/fbf-icpp17.pdf
+artifact_available: false
+artifact_evaluated_functional: false
+artifact_evaluated_reusable: false
+results_reproduced: false
 ---

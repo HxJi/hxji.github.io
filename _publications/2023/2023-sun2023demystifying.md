@@ -22,4 +22,8 @@ authors:
 links:
   Paper: https://dl.acm.org/doi/abs/10.1145/3613424.3614256
   PDF: /assets/pdf/cxl-micro23.pdf
+artifact_available: true
+artifact_evaluated_functional: true
+artifact_evaluated_reusable: false
+results_reproduced: true
 ---

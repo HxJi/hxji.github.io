@@ -2,7 +2,7 @@
 title: "TAROT: A CXL SmartNIC-Based Defense Against Multi-bit Errors by Row-Hammer Attacks"
 date: 2024-06-01 12:00:00 +0000
 selected: false
-pub: "Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3"
+pub: "29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
 pub_date: "2024"
 authors:
   - Chihun Song
@@ -18,4 +18,8 @@ authors:
   - Nam Sung Kim
 links:
   Paper: https://dl.acm.org/doi/10.1145/3620666.3651325
+artifact_available: true
+artifact_evaluated_functional: true
+artifact_evaluated_reusable: false
+results_reproduced: true
 ---
