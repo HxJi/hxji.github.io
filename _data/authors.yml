@@ -1,22 +1,17 @@
-"Your Name":
+"Houxiang Ji":
   bold: true
 
-"Robert White":
-  url: https://www.google.com/?q=Robert+White
+"Ji, Houxiang":
+  name: Houxiang Ji
+  bold: true
 
-"Charles Green (MIT)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+MIT
+"Ji*, Houxiang":
+  name: Houxiang Ji*
+  bold: true
 
-"Charles Green (Stanford)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+Stanford
+"Nam Sung Kim":
+  url: https://fast.ece.illinois.edu/member.html
 
-"Garrett Harris":
-  url: https://www.google.com/?q=Garrett+Harris
-
-"James Wang":
-  url: https://www.google.com/?q=James+Wang
-
-"John Doe":
-  url: https://www.google.com/?q=John+Doe
+"Kim, Nam Sung":
+  name: Nam Sung Kim
+  url: https://fast.ece.illinois.edu/member.html
