@@ -91,3 +91,15 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
+
+html[data-theme="dark"] .publication-author,
+html[data-theme="dark"] .publication-author span {
+    color: #cbd5e1 !important;
+    opacity: 1 !important;
+}
+
+html[data-theme="dark"] .publication-author strong,
+html[data-theme="dark"] .publication-author-self {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
