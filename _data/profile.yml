@@ -3,8 +3,8 @@ secondary_name: ""
 navbar_name: "Houxiang Ji"
 
 positions:
+- name: Memory System Research Group, SK hynix America
 - name: Computer Architecture and Systems Researcher
-- name: Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign
 
 email: "first_name dotlast_name at sk dot com"
 cv_link: /assets/pdf/resume.pdf
@@ -16,17 +16,18 @@ orcid: 0009-0008-8402-0127
 short_bio_text_justify: false
 short_bio: >-
   <p>
+    I am currently with the Memory System Research Group at
+    <a href="https://americas.skhynix.com/" target="_blank">SK hynix America</a>.
+    My research interests include computer architecture, memory systems, Compute Express Link (CXL),
+    near-memory acceleration, heterogeneous computing, and systems for machine learning.
+  </p>
+  <p>
     I received my Ph.D. in computer science from the
     <a href="https://siebelschool.illinois.edu/" target="_blank">Siebel School of Computing and Data Science</a>
     at the <a href="https://illinois.edu/" target="_blank">University of Illinois Urbana-Champaign</a>,
     advised by <a href="https://fast.ece.illinois.edu/member.html" target="_blank">Prof. Nam Sung Kim</a>.
-    I am affiliated with the <a href="https://fast.ece.illinois.edu/" target="_blank">FAST</a> research group
+    I was affiliated with the <a href="https://fast.ece.illinois.edu/" target="_blank">FAST</a> research group
     and Coordinated Science Lab.
-  </p>
-  <p>
-    My research interests include computer architecture, memory systems, Compute Express Link (CXL),
-    and systems for machine learning. I am currently working on CXL Type-2 devices to boost
-    hyperscaler application performance.
   </p>
   <p>
     Before joining UIUC, I received my bachelor's degree in Computer Science and Engineering and Finance from
@@ -50,20 +51,41 @@ education:
 - name: Shanghai Jiao Tong University
   logo: /assets/images/badges/sjtu.png
   position: B.S. in Computer Science and Engineering and Finance
-  date:
+  date: 2018
 
 experience:
+- name: SK hynix America
+  position: Memory System Research Group
+  date:
 - name: Meta
   logo: /assets/images/badges/meta.svg
-  position: Visiting Researcher
-  date:
+  position: Visiting Researcher, Capacity Engineering and Analysis
+  date: Jul. 2022 - Dec. 2022
 - name: Luminous Computing
   logo: /assets/images/badges/luminous.png
-  position: Research Intern
-  date:
+  position: Research Intern, CPU Design
+  date: May 2021 - Aug. 2021
 - name: Intel Labs
   logo: /assets/images/badges/intel.svg
-  position: Research Intern
-  date:
+  position: Research Intern, Security and Privacy Research
+  date: May 2020 - Aug. 2020
 
-awards: []
+awards:
+- name: Best Demo Award, SRC/DARPA PRISM Center Annual Review
+  date: 2023
+- name: UIUC CS PhD Fellowship
+  date: 2023
+- name: USENIX OSDI/ATC 2023 Travel Grant
+  date: 2023
+- name: IEEE ISCA 2019 Travel Grant
+  date: 2019
+- name: Ray Ozzie Computer Science Fellowship, UIUC
+  date: 2018
+- name: Zhiyuan Honor Degree of B.Sc. in Computer Science, SJTU
+  date: 2018
+- name: Outstanding Graduates, SJTU
+  date: 2018
+- name: Zhiyuan Honor Scholarship, SJTU
+  date: 2015-2017
+- name: Excellent Undergraduate Scholarship, SJTU
+  date: 2015-2017
