@@ -16,16 +16,17 @@ orcid: 0009-0008-8402-0127
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am currently with the Memory System Research Group at
-    <a href="https://americas.skhynix.com/" target="_blank">SK hynix America</a>.
+    I am currently with the
+    <a href="https://research.skhynix.com/research_areas/memory_systems_research?index=0" target="_blank">Memory System Research Group</a>
+    at <a href="https://www.skhynix.com" target="_blank">SK hynix America</a>.
     My research interests include computer architecture, memory systems, Compute Express Link (CXL),
     near-memory acceleration, heterogeneous computing, and systems for machine learning.
   </p>
   <p>
     I received my Ph.D. in computer science from the
     <a href="https://siebelschool.illinois.edu/" target="_blank">Siebel School of Computing and Data Science</a>
-    at the <a href="https://illinois.edu/" target="_blank">University of Illinois Urbana-Champaign</a> (UIUC),
-    advised by <a href="https://fast.ece.illinois.edu/member.html" target="_blank">Prof. Nam Sung Kim</a>.
+    at the <a href="https://illinois.edu/" target="_blank">University of Illinois Urbana-Champaign (UIUC)</a>,
+    advised by <a href="https://fast.ece.illinois.edu/members/" target="_blank">Prof. Nam Sung Kim</a>.
     I was affiliated with the <a href="https://fast.ece.illinois.edu/" target="_blank">FAST</a> research group
     and Coordinated Science Lab.
   </p>
@@ -33,7 +34,7 @@ short_bio: >-
     Before joining UIUC, I received my bachelor's degree in Computer Science and Engineering and Finance from
     <a href="https://en.sjtu.edu.cn/" target="_blank">Shanghai Jiao Tong University (SJTU)</a>.
     I have worked as a visiting researcher at <a href="https://about.meta.com/" target="_blank">Meta</a>
-    and as a research intern at <a href="https://www.luminous.com/" target="_blank">Luminous Computing</a>
+    and as a research intern at Luminous Computing
     and <a href="https://www.intel.com/content/www/us/en/research/overview.html" target="_blank">Intel Labs</a>.
   </p>
 
