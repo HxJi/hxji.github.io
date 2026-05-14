@@ -77,22 +77,25 @@ experience:
   position: Research Intern, Security and Privacy Research
   date: May 2020 - Aug. 2020
 
-awards:
-- name: Best Demo Award, SRC/DARPA PRISM Center Annual Review
-  date: 2023
-- name: UIUC CS PhD Fellowship
-  date: 2023
-- name: USENIX OSDI/ATC 2023 Travel Grant
-  date: 2023
-- name: IEEE ISCA 2019 Travel Grant
-  date: 2019
-- name: Ray Ozzie Computer Science Fellowship, UIUC
-  date: 2018
-- name: Zhiyuan Honor Degree of B.Sc. in Computer Science, SJTU
-  date: 2018
-- name: Outstanding Graduates, SJTU
-  date: 2018
-- name: Zhiyuan Honor Scholarship, SJTU
-  date: 2015-2017
-- name: Excellent Undergraduate Scholarship, SJTU
-  date: 2015-2017
+# Honors & Awards are intentionally hidden from the homepage for a cleaner layout.
+# Keep the list below for future reuse, for example on a CV or dedicated awards page.
+# awards:
+# - name: Best Demo Award, SRC/DARPA PRISM Center Annual Review
+#   date: 2023
+# - name: UIUC CS PhD Fellowship
+#   date: 2023
+# - name: USENIX OSDI/ATC 2023 Travel Grant
+#   date: 2023
+# - name: IEEE ISCA 2019 Travel Grant
+#   date: 2019
+# - name: Ray Ozzie Computer Science Fellowship, UIUC
+#   date: 2018
+# - name: Zhiyuan Honor Degree of B.Sc. in Computer Science, SJTU
+#   date: 2018
+# - name: Outstanding Graduates, SJTU
+#   date: 2018
+# - name: Zhiyuan Honor Scholarship, SJTU
+#   date: 2015-2017
+# - name: Excellent Undergraduate Scholarship, SJTU
+#   date: 2015-2017
+awards: []
