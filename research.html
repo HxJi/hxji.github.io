@@ -8,89 +8,70 @@ navbar_title: Research
     <div class="col-12 col-lg-10 mx-auto">
         <div class="my-3 bg-white shadow-sm rounded-xl research-page-card">
             <div class="p-4 border-bottom border-gray">
-                <h2 class="mb-2">Research</h2>
+                <h2 class="mb-2">Research Overview</h2>
                 <p class="mb-0 text-muted">
-                    My research focuses on memory-centric computer systems, with an emphasis on CXL-based memory expansion,
+                    My research broadly explores memory-centric computer systems, with a focus on CXL-based memory expansion,
                     heterogeneous cooperative computing, near-data acceleration, and datacenter memory efficiency.
                 </p>
             </div>
 
-            <div class="p-4 border-bottom border-gray research-topic">
-                <h4 class="mb-2">CXL Memory Systems and Disaggregated Memory</h4>
-                <p class="text-muted mb-3">
-                    I study how emerging CXL devices reshape memory hierarchy design, resource management, and system software
-                    for modern datacenter platforms.
-                </p>
-                <ul class="research-work-list mb-0">
-                    <li>
-                        <strong>Re-architecting End-host Networking with CXL: Coherence, Memory, and Offloading.</strong>
-                        <span class="text-muted"> MICRO 2025.</span>
-                    </li>
-                    <li>
-                        <strong>Demystifying a CXL Type-2 Device: A Heterogeneous Cooperative Computing Perspective.</strong>
-                        <span class="text-muted"> MICRO 2024.</span>
-                    </li>
-                    <li>
-                        <strong>Demystifying CXL Memory with Genuine CXL-Ready Systems and Devices.</strong>
-                        <span class="text-muted"> MICRO 2023.</span>
-                    </li>
-                    <li>
-                        <strong>Characterizing CXL Memory Management in a Production Cluster Management Host Agent.</strong>
-                        <span class="text-muted"> HCDS 2026.</span>
-                    </li>
-                </ul>
-            </div>
+            <div class="p-4 research-overview-list">
+                <div class="research-topic-card">
+                    <div class="research-topic-header">
+                        <div class="research-topic-icon"><i class="fas fa-memory"></i></div>
+                        <div>
+                            <div class="research-topic-index">01</div>
+                            <h4>CXL Memory Systems and Disaggregated Memory</h4>
+                        </div>
+                    </div>
+                    <p class="text-muted research-topic-summary">
+                        Understanding and redesigning system software, memory management, and device cooperation for CXL-enabled platforms.
+                    </p>
+                    <ul class="research-paper-list">
+                        <li><span class="research-venue">[MICRO'25]</span> Re-architecting End-host Networking with CXL: Coherence, Memory, and Offloading</li>
+                        <li><span class="research-venue">[MICRO'24]</span> Demystifying a CXL Type-2 Device: A Heterogeneous Cooperative Computing Perspective</li>
+                        <li><span class="research-venue">[MICRO'23]</span> Demystifying CXL Memory with Genuine CXL-Ready Systems and Devices</li>
+                        <li><span class="research-venue">[HCDS'26]</span> Characterizing CXL Memory Management in a Production Cluster Management Host Agent</li>
+                    </ul>
+                </div>
 
-            <div class="p-4 border-bottom border-gray research-topic">
-                <h4 class="mb-2">Near-Data Acceleration for System Services</h4>
-                <p class="text-muted mb-3">
-                    I design systems that offload memory-intensive operating-system and runtime services to specialized devices,
-                    reducing CPU overhead and improving datacenter efficiency.
-                </p>
-                <ul class="research-work-list mb-0">
-                    <li>
-                        <strong>Para-ksm: Parallelized Memory Deduplication with Data Streaming Accelerator.</strong>
-                        <span class="text-muted"> USENIX ATC 2025.</span>
-                    </li>
-                    <li>
-                        <strong>Cooperative Memory Deduplication with Intel Data Streaming Accelerator.</strong>
-                        <span class="text-muted"> IEEE CAL 2025.</span>
-                    </li>
-                    <li>
-                        <strong>Hardware-accelerated Kernel-Space Memory Compression Using Intel QAT.</strong>
-                        <span class="text-muted"> IEEE CAL 2025.</span>
-                    </li>
-                    <li>
-                        <strong>STYX: Exploiting SmartNIC Capability to Reduce Datacenter Memory Tax.</strong>
-                        <span class="text-muted"> USENIX ATC 2023.</span>
-                    </li>
-                </ul>
-            </div>
+                <div class="research-topic-card">
+                    <div class="research-topic-header">
+                        <div class="research-topic-icon"><i class="fas fa-microchip"></i></div>
+                        <div>
+                            <div class="research-topic-index">02</div>
+                            <h4>Near-Data Acceleration for System Services</h4>
+                        </div>
+                    </div>
+                    <p class="text-muted research-topic-summary">
+                        Offloading memory-intensive OS and runtime services to specialized devices to reduce CPU overhead and improve efficiency.
+                    </p>
+                    <ul class="research-paper-list">
+                        <li><span class="research-venue">[ATC'25]</span> Para-ksm: Parallelized Memory Deduplication with Data Streaming Accelerator</li>
+                        <li><span class="research-venue">[CAL'25]</span> Cooperative Memory Deduplication with Intel Data Streaming Accelerator</li>
+                        <li><span class="research-venue">[CAL'25]</span> Hardware-accelerated Kernel-Space Memory Compression Using Intel QAT</li>
+                        <li><span class="research-venue">[ATC'23]</span> STYX: Exploiting SmartNIC Capability to Reduce Datacenter Memory Tax</li>
+                    </ul>
+                </div>
 
-            <div class="p-4 research-topic">
-                <h4 class="mb-2">Memory, Storage, and Data-Intensive Computing</h4>
-                <p class="text-muted mb-3">
-                    I am also interested in architecture and system techniques for data-intensive applications, including storage
-                    latency modeling, graph analytics, and memory reliability.
-                </p>
-                <ul class="research-work-list mb-0">
-                    <li>
-                        <strong>MAC: Metadata Acceleration for Sustainable Performance in Big-Data Systems with CXL DRAM.</strong>
-                        <span class="text-muted"> OSDI 2026.</span>
-                    </li>
-                    <li>
-                        <strong>Time Series Machine Learning Models for Precise SSD Access Latency Prediction.</strong>
-                        <span class="text-muted"> IEEE CAL 2025.</span>
-                    </li>
-                    <li>
-                        <strong>X-PPR: Post Package Repair for CXL Memory.</strong>
-                        <span class="text-muted"> IEEE CAL 2025.</span>
-                    </li>
-                    <li>
-                        <strong>Graphite: Optimizing Graph Neural Networks on CPUs through Cooperative Software-Hardware Techniques.</strong>
-                        <span class="text-muted"> ISCA 2022.</span>
-                    </li>
-                </ul>
+                <div class="research-topic-card">
+                    <div class="research-topic-header">
+                        <div class="research-topic-icon"><i class="fas fa-database"></i></div>
+                        <div>
+                            <div class="research-topic-index">03</div>
+                            <h4>Memory, Storage, and Data-Intensive Computing</h4>
+                        </div>
+                    </div>
+                    <p class="text-muted research-topic-summary">
+                        Architecture and system techniques for data-intensive workloads, including metadata acceleration, storage modeling, and reliability.
+                    </p>
+                    <ul class="research-paper-list">
+                        <li><span class="research-venue">[OSDI'26]</span> MAC: Metadata Acceleration for Sustainable Performance in Big-Data Systems with CXL DRAM</li>
+                        <li><span class="research-venue">[CAL'25]</span> Time Series Machine Learning Models for Precise SSD Access Latency Prediction</li>
+                        <li><span class="research-venue">[CAL'25]</span> X-PPR: Post Package Repair for CXL Memory</li>
+                        <li><span class="research-venue">[ISCA'22]</span> Graphite: Optimizing Graph Neural Networks on CPUs through Cooperative Software-Hardware Techniques</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
