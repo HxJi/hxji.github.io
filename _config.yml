@@ -2,7 +2,7 @@
 baseurl: "" # GitHub Pages user site is hosted at the root: https://hxji.github.io
 url: "https://hxji.github.io"
 title: "Houxiang Ji"
-email: "first_name dotlast_name at sk dot com"
+email: "first_name dot last_name at sk dot com"
 description: "Houxiang Ji's academic homepage. Research interests include computer architecture, memory systems, CXL, and systems for machine learning."
 
 # Build settings

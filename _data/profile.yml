@@ -6,7 +6,7 @@ positions:
 - name: Memory System Research Group, SK hynix America
 - name: Computer Architecture and Systems Researcher
 
-email: "first_name dotlast_name at sk dot com"
+email: "first_name dot last_name at sk dot com"
 cv_link: /assets/pdf/resume.pdf
 gscholar: tJwsCPYAAAAJ
 github: hxji
@@ -24,7 +24,7 @@ short_bio: >-
   <p>
     I received my Ph.D. in computer science from the
     <a href="https://siebelschool.illinois.edu/" target="_blank">Siebel School of Computing and Data Science</a>
-    at the <a href="https://illinois.edu/" target="_blank">University of Illinois Urbana-Champaign</a>,
+    at the <a href="https://illinois.edu/" target="_blank">University of Illinois Urbana-Champaign</a> (UIUC),
     advised by <a href="https://fast.ece.illinois.edu/member.html" target="_blank">Prof. Nam Sung Kim</a>.
     I was affiliated with the <a href="https://fast.ece.illinois.edu/" target="_blank">FAST</a> research group
     and Coordinated Science Lab.
@@ -47,7 +47,13 @@ education:
   position: >-
     Siebel School of Computing and Data Science <br/>
     Ph.D. in Computer Science
-  date:
+  date: 2025
+- name: University of Illinois Urbana-Champaign
+  logo: /assets/images/badges/uiuc.png
+  position: >-
+    Siebel School of Computing and Data Science <br/>
+    M.S. in Computer Science
+  date: 2021
 - name: Shanghai Jiao Tong University
   logo: /assets/images/badges/sjtu.png
   position: B.S. in Computer Science and Engineering and Finance
@@ -57,7 +63,7 @@ experience:
 - name: SK hynix America
   logo: /assets/images/badges/hynix.png
   position: Memory System Research Group
-  date:
+  date: Aug. 2025 - Present
 - name: Meta
   logo: /assets/images/badges/meta.svg
   position: Visiting Researcher, Capacity Engineering and Analysis
