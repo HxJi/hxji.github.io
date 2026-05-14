@@ -1,8 +1,8 @@
 ---
-title: "Demystifying cxl memory with genuine cxl-ready systems and devices"
+title: "Demystifying CXL Memory with Genuine CXL-Ready Systems and Devices"
 date: 2023-06-01 12:00:00 +0000
 selected: true
-pub: "Proceedings of the 56th Annual IEEE/ACM International Symposium on Microarchitecture"
+pub: "56th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)"
 pub_date: "2023"
 authors:
   - Yan Sun
