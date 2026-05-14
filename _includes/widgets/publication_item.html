@@ -1,10 +1,10 @@
 {% assign item = include.item %}
 {% capture artifact_badges_html %}
 {% assign badge_options = site.data.display.artifact_badge_options %}
-{% assign show_available = item.artifact_available | default: true %}
-{% assign show_functional = item.artifact_evaluated_functional | default: true %}
-{% assign show_reusable = item.artifact_evaluated_reusable | default: true %}
-{% assign show_reproduced = item.results_reproduced | default: true %}
+{% if item.artifact_available == nil %}{% assign show_available = true %}{% else %}{% assign show_available = item.artifact_available %}{% endif %}
+{% if item.artifact_evaluated_functional == nil %}{% assign show_functional = true %}{% else %}{% assign show_functional = item.artifact_evaluated_functional %}{% endif %}
+{% if item.artifact_evaluated_reusable == nil %}{% assign show_reusable = true %}{% else %}{% assign show_reusable = item.artifact_evaluated_reusable %}{% endif %}
+{% if item.results_reproduced == nil %}{% assign show_reproduced = true %}{% else %}{% assign show_reproduced = item.results_reproduced %}{% endif %}
 {% if show_available and badge_options.artifact_available %}
     {% assign badge = badge_options.artifact_available %}
     <a href="{{ badge.url }}" target="_blank" rel="noopener noreferrer" class="artifact-badge-link"><img class="artifact-badge-img" src="{{ badge.image | relative_url }}" alt="{{ badge.name }}" title="{{ badge.name }}"></a>
@@ -70,7 +70,7 @@
                 <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
                     {% for link in item.links %}
                     {% if link[1].url %}
-                    <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">[{{ link[0] }}]</a>
+                    <a target="{{ link[1]['target'] }}" href="{{ link[1] }}">[{{ link[0] }}]</a>
                     {% else %}
                     <a target="_blank" href="{{ link[1] }}">[{{ link[0] }}]</a>
                     {% endif %}
