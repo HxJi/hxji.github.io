@@ -1,16 +1,23 @@
 {% assign item = include.item %}
 {% capture artifact_badges_html %}
-{% if item.artifact_badges %}
-    {% for badge in item.artifact_badges %}
-        {% if badge.image %}
-            {% if badge.url %}<a href="{{ badge.url }}" target="_blank" rel="noopener noreferrer" class="artifact-badge-link">{% endif %}
-            <img class="artifact-badge-img" src="{{ badge.image | relative_url }}" alt="{{ badge.name | default: 'Artifact badge' }}" title="{{ badge.name | default: 'Artifact badge' }}">
-            {% if badge.url %}</a>{% endif %}
-        {% else %}
-            <span class="badge badge-pill badge-info badge-publication ml-1">{{ badge.name | default: badge }}</span>
-        {% endif %}
-    {% endfor %}
-{% endif %}
+{% unless item.show_artifact_badges == false %}
+    {% if item.artifact_badges %}
+        {% assign badges = item.artifact_badges %}
+    {% else %}
+        {% assign badges = site.data.display.default_artifact_badges %}
+    {% endif %}
+    {% if badges %}
+        {% for badge in badges %}
+            {% if badge.image %}
+                {% if badge.url %}<a href="{{ badge.url }}" target="_blank" rel="noopener noreferrer" class="artifact-badge-link">{% endif %}
+                <img class="artifact-badge-img" src="{{ badge.image | relative_url }}" alt="{{ badge.name | default: 'Artifact badge' }}" title="{{ badge.name | default: 'Artifact badge' }}">
+                {% if badge.url %}</a>{% endif %}
+            {% else %}
+                <span class="badge badge-pill badge-info badge-publication ml-1">{{ badge.name | default: badge }}</span>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endunless %}
 {% endcapture %}
 <div class="d-none d-md-block">
     <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray publication-item-row">
