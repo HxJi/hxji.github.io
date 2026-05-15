@@ -1,3 +1,16 @@
+<script>
+(function () {
+    var portraits = [
+        '{{ "/assets/images/photos/portrait-1.jpg" | relative_url }}',
+        '{{ "/assets/images/photos/portrait-2.jpg" | relative_url }}',
+        '{{ "/assets/images/photos/portrait-3.jpg" | relative_url }}',
+        '{{ "/assets/images/photos/portrait-4.jpg" | relative_url }}'
+    ];
+    var idx = Math.floor(Math.random() * portraits.length);
+    document.documentElement.setAttribute('data-random-portrait', portraits[idx]);
+})();
+</script>
+
 <div class="row sticky-top" style="top: 80px">
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
@@ -8,15 +21,27 @@
                         <!-- When the screen is wider than md, float the portrait on the right -->
                         <div class="figure d-none d-md-block">
                             <img 
+                                id="random-portrait-mini-desktop"
                                 src="{{ site.data.profile.portrait_url | relative_url }}" 
-                                class="figure-img img-fluid" 
+                                class="figure-img img-fluid random-portrait-mini" 
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="{{ site.data.profile.portrait_caption }}">
                         </div>
                         <div class="mb-3 d-md-none text-center">
-                            <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle" style="max-width: 50%;" alt="Portrait">
+                            <img id="random-portrait-mini-mobile" src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle random-portrait-mini" style="max-width: 50%;" alt="Portrait">
                         </div>
+                        <script>
+                        (function () {
+                            var selected = document.documentElement.getAttribute('data-random-portrait');
+                            if (!selected) return;
+                            var stamped = selected + '?r=' + Date.now();
+                            var images = document.querySelectorAll('.random-portrait-mini');
+                            images.forEach(function (img) {
+                                img.src = stamped;
+                            });
+                        })();
+                        </script>
                         {% endif %}
                     </div>
                 </div>
