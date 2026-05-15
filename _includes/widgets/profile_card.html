@@ -1,3 +1,16 @@
+<script>
+(function () {
+    var portraits = [
+        '{{ "/assets/images/photos/portrait-1.jpg" | relative_url }}',
+        '{{ "/assets/images/photos/portrait-2.jpg" | relative_url }}',
+        '{{ "/assets/images/photos/portrait-3.jpg" | relative_url }}',
+        '{{ "/assets/images/photos/portrait-4.jpg" | relative_url }}'
+    ];
+    var idx = Math.floor(Math.random() * portraits.length);
+    document.documentElement.setAttribute('data-random-portrait', portraits[idx]);
+})();
+</script>
+
 <div class="row">
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
@@ -10,7 +23,6 @@
                             <img 
                                 id="random-portrait-desktop"
                                 src="{{ site.data.profile.portrait_url | relative_url }}" 
-                                data-portraits='{{ site.data.profile.portrait_random_urls | jsonify }}'
                                 class="figure-img img-fluid img-thumbnail random-portrait" 
                                 style="height: 200px;"
                                 data-toggle="tooltip" 
@@ -26,11 +38,24 @@
                             {% if site.data.profile.portrait_url %}
                             <div class="ml-auto d-md-none">
                                 <a id="random-portrait-mobile-link" target="_blank" href="{{ site.data.profile.portrait_url | relative_url }}">
-                                    <img id="random-portrait-mobile" src="{{ site.data.profile.portrait_url | relative_url }}" data-portraits='{{ site.data.profile.portrait_random_urls | jsonify }}' class="rounded-circle random-portrait" style="height: 48px;" alt="Portrait">
+                                    <img id="random-portrait-mobile" src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle random-portrait" style="height: 48px;" alt="Portrait">
                                 </a>
                             </div>
                             {% endif %}
                         </div>
+                        <script>
+                        (function () {
+                            var selected = document.documentElement.getAttribute('data-random-portrait');
+                            if (!selected) return;
+                            var stamped = selected + '?r=' + Date.now();
+                            var desktop = document.getElementById('random-portrait-desktop');
+                            var mobile = document.getElementById('random-portrait-mobile');
+                            var mobileLink = document.getElementById('random-portrait-mobile-link');
+                            if (desktop) desktop.src = stamped;
+                            if (mobile) mobile.src = stamped;
+                            if (mobileLink) mobileLink.href = selected;
+                        })();
+                        </script>
                         <div class="text-profile-position">
                             {% for position in site.data.profile.positions %}
                             {% if position.logo -%}
