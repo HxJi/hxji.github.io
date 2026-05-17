@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
     '/assets/images/photos/portrait-1.jpg',
     '/assets/images/photos/portrait-2.jpg',
     '/assets/images/photos/portrait-3.jpg',
-    '/assets/images/photos/portrait-4.jpg'
+    '/assets/images/photos/portrait-4.jpg',
+    '/assets/images/photos/portrait-5.jpg'
   ];
 
   var lastIndex = -1;
