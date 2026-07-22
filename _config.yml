@@ -5,6 +5,10 @@ title: "Houxiang Ji"
 email: "first_name dot last_name at sk dot com"
 description: "Houxiang Ji's academic homepage. Research interests include computer architecture, memory systems, CXL, and systems for machine learning."
 
+# Google Analytics (GA4). Paste your Measurement ID here (looks like G-XXXXXXXXXX).
+# Leave blank to disable. Only loads on the production (deployed) site, not local builds.
+google_analytics: "G-Q9EJXK2X3T"
+
 # Build settings
 markdown: kramdown
 plugins:
