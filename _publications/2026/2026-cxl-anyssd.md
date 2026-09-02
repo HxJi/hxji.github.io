@@ -17,7 +17,7 @@ authors:
   - Sudarsun Kannan
   - Nam Sung Kim
 artifact_available: false
-artifact_evaluated_functional: false
+artifact_evaluated_functional: true
 artifact_evaluated_reusable: false
-results_reproduced: false
+results_reproduced: true
 ---
