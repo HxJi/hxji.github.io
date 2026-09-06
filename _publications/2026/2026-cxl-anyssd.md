@@ -5,8 +5,8 @@ selected: false
 pub: "59th IEEE/ACM International Symposium on Microarchitecture (MICRO)"
 pub_date: "2026"
 authors:
-  - Yang Zhou
-  - Houxiang Ji
+  - Yang Zhou*
+  - Houxiang Ji*
   - Bikrant Sharma
   - Jiyuan Zhang
   - Yu Li
@@ -16,6 +16,7 @@ authors:
   - Jihong Kim
   - Sudarsun Kannan
   - Nam Sung Kim
+pub_last: "*equal contribution"
 artifact_available: false
 artifact_evaluated_functional: true
 artifact_evaluated_reusable: false
