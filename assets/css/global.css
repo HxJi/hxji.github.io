@@ -173,3 +173,15 @@ html[data-theme="dark"] .research-page-card .text-muted,
 html[data-theme="dark"] .research-topic .text-muted {
     color: #b6c2d6 !important;
 }
+
+.navbar-name-cn {
+    /* 汉字视觉大小微调：SVG 的宽高与基线偏移都是 em 单位，
+       改这一个数值即可整体等比缩放，无需重新转曲 */
+    font-size: 1.15em;
+}
+
+.navbar-name-cn svg {
+    /* 转曲后的中文名：跟随导航栏文字颜色与字号，深色模式自动适配 */
+    display: inline-block;
+    max-width: none;
+}

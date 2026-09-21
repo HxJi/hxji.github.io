@@ -1,6 +1,8 @@
 primary_name: "Houxiang Ji"
 secondary_name: ""
-navbar_name: "Houxiang Ji (姬厚祥)"
+navbar_name: "Houxiang Ji (姬厚祥)"   # 纯文本，用于 <title> 标签
+navbar_name_cn: "姬厚祥"              # 中文名纯文本（无障碍朗读 / 复制粘贴用）
+navbar_name_svg: true                 # 导航栏用转曲 SVG 渲染中文名，改成 false 即回退为系统字体
 
 positions:
 - name: Memory System Research Group, SK&nbsp;hynix&nbsp;America

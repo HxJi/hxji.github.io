@@ -3,7 +3,6 @@ homepage:
   show_news: true
   show_selected_publications: true
   num_news: 20
-  news_since_year: 2025
 
 artifact_badge_options:
   artifact_available:
