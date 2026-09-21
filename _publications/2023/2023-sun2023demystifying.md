@@ -1,7 +1,7 @@
 ---
 title: "Demystifying CXL Memory with Genuine CXL-Ready Systems and Devices"
 date: 2023-06-01 12:00:00 +0000
-selected: true
+selected: false
 pub: "56th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)"
 pub_date: "2023"
 authors:
