@@ -84,6 +84,32 @@ div.lazy {
     min-height: 80px;
 }
 
+.news-body {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.news-highlight {
+    background-color: #fff8e6;
+    border-left: 3px solid #e0a416;
+    border-radius: 0.3rem;
+    padding: 0.35rem 0.55rem;
+}
+
+.news-highlight-icon {
+    color: #e0a416;
+    margin-right: 0.35rem;
+}
+
+html[data-theme="dark"] .news-highlight {
+    background-color: rgba(224, 164, 22, 0.14);
+    border-left-color: #f5c451;
+}
+
+html[data-theme="dark"] .news-highlight-icon {
+    color: #f5c451;
+}
+
 .badge-publication {
     font-size: 100%;
 }
