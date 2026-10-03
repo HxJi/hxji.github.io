@@ -3,13 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!images.length) return;
 
   // Keep the list here so newly added portraits work even if profile.yml is stale.
-  // The fourth image is treated like a small surprise / easter egg.
   var portraits = [
     '/assets/images/photos/portrait-1.jpg',
     '/assets/images/photos/portrait-2.jpg',
-    '/assets/images/photos/portrait-3.jpg',
-    '/assets/images/photos/portrait-4.jpg',
-    '/assets/images/photos/portrait-5.jpg'
+    '/assets/images/photos/portrait-3.jpg'
   ];
 
   var lastIndex = -1;
