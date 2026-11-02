@@ -1,9 +1,9 @@
 ---
 title: "Don't Wait! Let CXL Deliver the Data for You"
-date: 2026-03-01 12:00:00 +0000
+date: 2027-03-01 12:00:00 +0000
 selected: false
-pub: "32nd IEEE International Symposium on High-Performance Computer Architecture (HPCA)"
-pub_date: "2026"
+pub: "33rd IEEE International Symposium on High-Performance Computer Architecture (HPCA)"
+pub_date: "2027"
 authors:
   - Yan Sun
   - Taehyung Lee
