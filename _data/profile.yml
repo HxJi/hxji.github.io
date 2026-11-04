@@ -10,6 +10,7 @@ positions:
 
 email: "first_name dot last_name at sk dot com"
 cv_link: /assets/pdf/resume.pdf
+cv_updated: "Nov 2026"   # shown next to the CV link on the homepage
 gscholar: tJwsCPYAAAAJ
 github: hxji
 linkedin: houxiang-j-38156816a
@@ -23,6 +24,8 @@ short_bio: >-
     at <a href="https://www.skhynix.com" target="_blank">SK hynix America</a>.
     My research interests include computer architecture, memory systems, Compute Express Link (CXL),
     near-memory acceleration, heterogeneous computing, and systems for machine learning.
+    In 2026, I was inducted into the
+    <a href="https://www.sigmicro.org/awards/microhof.php" target="_blank">MICRO Hall of Fame</a>.
   </p>
   <p>
     I received my Ph.D. in computer science from the
