@@ -11,7 +11,7 @@
             <div class="media-body">
                 {% for item in year.items %}
                 <div class="my-1 d-flex{% if item.highlight %} news-highlight{% endif %}">
-                    <div>{% if item.highlight %}<i class="fas fa-star news-highlight-icon"></i>{% endif %}{{ item.title }}</div>
+                    <div>{% if item.highlight %}<i class="fas fa-star news-highlight-icon"></i>{% endif %}{% if item.venue %}<span class="venue-tag">[{{ item.venue }}]</span> {% endif %}{{ item.title }}</div>
                     <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
                 </div>
                 {% endfor %}

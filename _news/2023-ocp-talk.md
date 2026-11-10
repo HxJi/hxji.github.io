@@ -1,6 +1,7 @@
 ---
 title: >-
   Invited talk at the OCP Composable Memory System Group on CXL Type-2 offloading. <a href="https://www.youtube.com/watch?v=g1b7vcQ7UmM" target="_blank">Video</a>.
+venue: "OCP CMS'23"
 date: 2023-12-01 00:00:00 -0400
 show_homepage: false
 ---

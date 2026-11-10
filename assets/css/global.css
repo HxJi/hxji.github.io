@@ -185,3 +185,14 @@ html[data-theme="dark"] .research-topic .text-muted {
     display: inline-block;
     max-width: none;
 }
+
+/* Venue tags on publication lists and news, e.g. [HPCA'27] */
+.venue-tag {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 700;
+    color: #0369a1;
+    white-space: nowrap;
+}
+html[data-theme="dark"] .venue-tag {
+    color: #7dd3fc !important;
+}

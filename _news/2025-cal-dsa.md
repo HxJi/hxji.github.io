@@ -1,6 +1,7 @@
 ---
 title: >-
   One paper accepted to <a href="https://www.computer.org/csdl/journal/ca" target="_blank">IEEE Computer Architecture Letters</a> on DSA-assisted memory deduplication.
+venue: "CAL'25"
 date: 2025-01-05 00:00:00 -0400
 show_homepage: false
 ---

@@ -4,6 +4,7 @@ date: 2021-06-01 12:00:00 +0000
 selected: false
 pub: "University of Illinois at Urbana-Champaign"
 pub_date: "2021"
+venue_short: "M.S. Thesis"
 authors:
   - Houxiang Ji
 links:
