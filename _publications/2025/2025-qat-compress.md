@@ -5,8 +5,8 @@ selected: false
 pub: "IEEE Computer Architecture Letters (CAL)"
 pub_date: "2025"
 authors:
-  - Qirong Xia*
   - Houxiang Ji*
+  - Qirong Xia*
   - Yang Zhou
   - Nam Sung Kim
 links:
