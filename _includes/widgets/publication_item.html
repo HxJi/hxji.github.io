@@ -9,6 +9,22 @@
 {%- else -%}
   {%- assign venue_tag = item.pub_date -%}
 {%- endif -%}
+{%- comment -%} Authorship badge: "First author" when the bold (self) author is listed first
+without an equal-contribution mark, "Co-first author" when the self entry carries "*". {%- endcomment -%}
+{%- assign authorship = "" -%}
+{%- if item.authors.size > 1 -%}
+  {%- for _a in item.authors -%}
+    {%- assign _key = _a | remove: "*" | remove: "#" -%}
+    {%- if site.data.authors[_key].bold == true -%}
+      {%- assign _last = _a | remove: "#" | slice: -1, 1 -%}
+      {%- if _last == "*" -%}
+        {%- assign authorship = "Co-first author" -%}
+      {%- elsif forloop.first -%}
+        {%- assign authorship = "First author" -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
 {% capture artifact_badges_html %}
 {% assign badge_options = site.data.display.artifact_badge_options %}
 {% if item.artifact_available == nil %}{% assign show_available = true %}{% else %}{% assign show_available = item.artifact_available %}{% endif %}
@@ -42,7 +58,7 @@
             {%- endif -%}
         </div>
         <div class="col-md-9 col-xl-10 p-3 pl-md-0 publication-text">
-            <h5 class="mt-0 mb-1 font-weight-normal publication-title"><span class="venue-tag">[{{ venue_tag }}]</span> {{ item.title }}</h5>
+            <h5 class="mt-0 mb-1 font-weight-normal publication-title"><span class="venue-tag">[{{ venue_tag }}]</span> {{ item.title }}</h5>{% if authorship != "" %}<div class="mb-1"><span class="authorship-badge{% if authorship == "Co-first author" %} authorship-badge-co{% endif %}">{{ authorship }}</span></div>{% endif %}
             <p class="mt-0 mb-0 small publication-authors">{% include widgets/author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small publication-venue">
                 {{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} {{ artifact_badges_html }}
@@ -69,7 +85,7 @@
         <div class="d-flex align-items-start flex-column py-3 px-4 publication-text">
             <div class="mb-auto"></div>
             <div>
-                <h5 class="mt-0 mb-1 font-weight-normal publication-title"><span class="venue-tag">[{{ venue_tag }}]</span> {{ item.title }}</h5>
+                <h5 class="mt-0 mb-1 font-weight-normal publication-title"><span class="venue-tag">[{{ venue_tag }}]</span> {{ item.title }}</h5>{% if authorship != "" %}<div class="mb-1"><span class="authorship-badge{% if authorship == "Co-first author" %} authorship-badge-co{% endif %}">{{ authorship }}</span></div>{% endif %}
                 <p class="mt-0 mb-0 small publication-authors">{% include widgets/author_list.html authors=item.authors %}</p>
                 <p class="mt-0 mb-0 small publication-venue">
                     {{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} {{ artifact_badges_html }}

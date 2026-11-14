@@ -16,7 +16,6 @@ authors:
   - Jihong Kim
   - Sudarsun Kannan
   - Nam Sung Kim
-pub_last: "*equal contribution"
 artifact_available: false
 artifact_evaluated_functional: true
 artifact_evaluated_reusable: false

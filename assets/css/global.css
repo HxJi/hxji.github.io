@@ -196,3 +196,49 @@ html[data-theme="dark"] .research-topic .text-muted {
 html[data-theme="dark"] .venue-tag {
     color: #7dd3fc !important;
 }
+
+/* Author line: larger than Bootstrap .small, own name stands out */
+.publication-authors {
+    font-size: 0.95rem !important;
+    line-height: 1.45;
+}
+.publication-author-self {
+    color: #0f172a;
+    font-weight: 900;
+    text-decoration: underline;
+    text-decoration-color: #0ea5e9;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+html[data-theme="dark"] .publication-author-self,
+html[data-theme="dark"] .publication-authors strong.publication-author-self {
+    color: #ffffff !important;
+    text-decoration-color: #7dd3fc;
+}
+
+/* First / co-first author badge under the title */
+.authorship-badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #0369a1;
+    border: 1px solid #0369a1;
+    border-radius: 999px;
+    padding: 0.05rem 0.6rem;
+}
+.authorship-badge-co {
+    color: #0369a1;
+    background: #e0f2fe;
+}
+html[data-theme="dark"] .authorship-badge {
+    color: #0f172a;
+    background: #7dd3fc;
+    border-color: #7dd3fc;
+}
+html[data-theme="dark"] .authorship-badge-co {
+    color: #7dd3fc;
+    background: rgba(56, 189, 248, 0.15);
+}
